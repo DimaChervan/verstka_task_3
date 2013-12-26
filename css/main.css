@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 5px;
+}
+
+.browser {
+    display: inline-block;
+    height: 120px;
+    width: 125px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.name {
+
+    width: inherit;
+    height: inherit;
+    text-align: center;
+}
+
+/*Местоположение ie*/
+.ie {
+    position: absolute;
+    right: 0;
+}
+
+/*Цвета для имен браузеров*/
+
+.green {
+    color:green;
+}
+
+.red {
+    color: rgb(193, 14, 14);
+}
+
+.orange {
+    color: orange;
+}
+
+.darkOrange {
+    color: rgb(242, 164, 20);
+}
+
+.grey {
+    color: rgb(131, 131, 131);
+}
+
+.black {
+    color: rgb(0, 0, 0);
+}
+
+.ie span {
+    display: block;
+    color: rgb(53, 138, 181);
+}
