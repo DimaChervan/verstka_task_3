@@ -3,25 +3,28 @@ body {
     padding: 5px;
 }
 
+.main {
+    min-width: 900px;
+}
+
 .browser {
     display: inline-block;
-    height: 120px;
-    width: 125px;
+    height: 126px;
+    width: 126px;
     overflow: hidden;
     margin-right: 10px;
 }
 
 .name {
-
-    width: inherit;
-    height: inherit;
     text-align: center;
 }
 
+.name span {
+    vertical-align: middle;
+}
 /*Местоположение ie*/
 .ie {
-    position: absolute;
-    right: 0;
+    float:right;
 }
 
 /*Цвета для имен браузеров*/
